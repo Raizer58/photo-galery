@@ -1,0 +1,18 @@
+<svg width="194" height="194" viewBox="0 0 194 194" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M97 123C115.225 123 130 108.225 130 90C130 71.7746 115.225 57 97 57C78.7746 57 64 71.7746 64 90C64 108.225 78.7746 123 97 123Z" fill="white"/>
+</g>
+<path d="M97 116.812C111.808 116.812 123.812 104.808 123.812 90C123.812 75.1919 111.808 63.1875 97 63.1875C82.1919 63.1875 70.1875 75.1919 70.1875 90C70.1875 104.808 82.1919 116.812 97 116.812Z" fill="#6979F8"/>
+<path d="M95.0838 89.975H96.8338C97.7338 89.975 98.3921 89.8333 98.8088 89.55C99.2421 89.25 99.4588 88.725 99.4588 87.975V87.175C99.4588 86.3583 99.2255 85.7667 98.7588 85.4C98.2921 85.0333 97.5838 84.85 96.6338 84.85C95.9505 84.85 95.2755 84.925 94.6088 85.075C93.9421 85.2083 93.2255 85.4083 92.4588 85.675V82.95C93.9588 82 95.7505 81.525 97.8338 81.525C99.5505 81.525 100.867 81.9833 101.784 82.9C102.7 83.8167 103.159 85.0417 103.159 86.575V88.05C103.159 91.2 101.392 92.775 97.8588 92.775V94.925H95.0838V89.975ZM95.3838 100.025C95.2338 100.025 95.1088 99.9833 95.0088 99.9C94.9255 99.8167 94.8838 99.6917 94.8838 99.525V96.975C94.8838 96.625 95.0505 96.45 95.3838 96.45H97.5338C97.9005 96.45 98.0838 96.625 98.0838 96.975V99.525C98.0838 99.8583 97.9005 100.025 97.5338 100.025H95.3838Z" fill="white"/>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="194" height="194" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="7"/>
+<feGaussianBlur stdDeviation="32"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.07 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.PageName {
+  display        : flex;
+  justify-content: center;
+}
+
+.SpinnerBackdrop {
+  position:  fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.Spinner {
+  width: 20vh;
+  height: 20vh;
+  border-width: 1vh;
+  color: white !important;
+}
