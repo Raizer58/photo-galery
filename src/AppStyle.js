@@ -58,6 +58,61 @@ const style = Style.div`
       box-shadow: 0px 5px 10px 0px grey;
     }
   }
+
+  .modal-window{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,.75);
+
+    .button-close-modal-window{
+      position: absolute;
+      top: 25px;
+      right: 50px;
+      width: 90px;
+      height: 30px;
+    }
+
+    .modal-window__container{
+      width: max-content;
+      height: max-content;
+      position: relative;
+
+      .left-slid,
+      .right-slid{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: calc(50% - 37.5px);
+        border: solid 2px black;
+        border-radius: 200px;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        transition: transform .3s easy-in-out;
+
+        &:hover{
+          transform: scale(1.25);
+          transition: transform .3s easy-in-out;
+        }
+      }
+
+      .left-slid{
+        left: 25px;
+      }
+
+      .right-slid{
+        right: 25px;
+      }
+    }
+
+  }
 `;
 
 export default style;
